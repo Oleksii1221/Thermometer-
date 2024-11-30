@@ -111,13 +111,6 @@ This project monitors temperature data from an ESP32 with a DS18B20 sensor and s
   Set a critical temperature (e.g., 30°C).
   View the current temperature by pressing "Get Temperature".
   If the temperature exceeds 30°C, the bot will send periodic alerts.
-## Project Structure
-  ```
-  ├── main.py                 # Main Python script for the server
-  ├── requirements.txt        # Dependencies
-  └── README.md               # Documentation
-  ```
-
 ## Known Issues
 Ensure that the ESP32 and server are connected to the same network for seamless communication.
 Configure a valid Telegram bot token and chat ID for proper operation.
